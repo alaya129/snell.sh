@@ -3,13 +3,13 @@
 ## 运行完毕后屏幕显示psk，默认端口号13254（我随手那么一按( ̀⌄ ́)，按照标准填入Surge即可。
 # 请使用root用户运行
 # 建议使用docker
-## https://github.com/primovist/snell-docker
-## https://hub.docker.com/repository/docker/primovist/snell-docker
+## https://github.com/alaya129/snell-docker
+## https://hub.docker.com/repository/docker/alaya129/snell-docker
 
 Debian & Ubuntu 用户请运行
 
 ```
-wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/snell.sh
+wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/alaya129/snell.sh/master/snell.sh
 chmod +x snell.sh
 ./snell.sh
 ```
@@ -17,7 +17,7 @@ chmod +x snell.sh
 Centos & RedHat 用户请运行
 
 ```
-wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/snell.centos.sh
+wget --no-check-certificate -O snell.sh https://raw.githubusercontent.com/alaya129/snell.sh/master/snell.centos.sh
 chmod +x snell.sh
 ./snell.sh
 ```
@@ -43,7 +43,7 @@ systemctl status snell
 卸载方法：
 
 ```
-wget --no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/uninstall-snell.sh
+wget --no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/alaya129/snell.sh/master/uninstall-snell.sh
 chmod +x uninstall-snell.sh
 ./uninstall-snell.sh
 ```
