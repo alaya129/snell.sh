@@ -26,13 +26,13 @@ chmod +x snell.sh
 在所有脚本运行结束后运行
 
 ```
-nano /etc/snell/snell-server.conf
+vi /etc/snell/snell-server.conf
 systemctl restart snell
 ```
 
 自行修改。
 
-当然你也可以用 vi ^o^
+当然你也可以用 nano ^o^
 
 查看运行状态：
 
